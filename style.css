@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-.navbar.chats{
-    color: white;
-}
 .nav1{
     background-color: red;
+}
+
+.bgi{
+    background-image: url(image/bgimage.jfif);
 }
