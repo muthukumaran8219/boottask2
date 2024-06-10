@@ -6,8 +6,12 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" href="style.css">
+
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script
       src="https://kit.fontawesome.com/b1d7456c37.js"
@@ -49,10 +53,15 @@
           
             <img class="col-5" src="image/apple store.svg" width="100%" height="100%" alt="">
         </div>
-      </div >
-
+      </div>
       <div class="col-6">
-        
+        <div class="container iphone">
+          <video class="video" width="203px" height="550px" autoplay>
+            <source src="image/demo-screen.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <img class="img" src="image/frame.png" alt="" width="232px" height="454px">
+        </div>
       </div>
     </div>
 
@@ -65,52 +74,53 @@
     </div>  
   </div>
 
-<section id="features">
-  <div class="container px-5">
-    <div class="row gx-5 align-items-center">
-      <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
-          <div class="container-fluid px-5">
-              <div class="row gx-5">
-                  <div class="col-md-6 mb-5">
-                      <!-- Feature item-->
-                      <div class="text-center">
-                        <box-icon name='mobile-alt'></box-icon>
-                          <h3 class="font-alt">Device Mockups</h3>
-                          <p class="text-muted mb-0">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
-                      </div>
-                  </div>
-                  <div class="col-md-6 mb-5">
-                      <!-- Feature item-->
-                      <div class="text-center">
-                          <box-icon name='camera'></box-icon>
-                          <h3 class="font-alt">Flexible Use</h3>
-                          <p class="text-muted mb-0">Put an image, video, animation, or anything else in the screen!</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-6 mb-5 mb-md-0">
-                      <!-- Feature item-->
-                      <div class="text-center">
-                          <box-icon name='gift'></box-icon>
-                          <h3 class="font-alt">Free to Use</h3>
-                          <p class="text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                      <!-- Feature item-->
-                      <div class="text-center">
-                          <box-icon name='badge-check' ></box-icon>
-                          <h3 class="font-alt">Open Source</h3>
-                          <p class="text-muted mb-0">Since this theme is MIT licensed, you can use it commercially!</p>
-                      </div>
-                  </div>
-              </div>
+  <section class="p-5 m-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="container iphone">
+            <video class="video1" width="275px" height="420px" autoplay>
+              <source src="image/demo-screen.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <img class="img1" src="image/frame.png" alt="" width="230px" height="438px">
           </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-6">
+              <!-- Feature item-->
+              <div class="text-center">
+                <i id="icon" class='bx bx-mobile-alt'></i>
+                   <h3 class="font-alt">Device Mockups</h3>
+                   <p class="text-muted mb-0">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+               </div>
+                <!-- Feature item-->
+                <div class="text-center">
+                  <i id="icon" class='bx bx-camera'></i>
+                    <h3 class="font-alt">Flexible Use</h3>
+                    <p class="text-muted mb-0">Put an image, video, animation, or anything else in the screen!</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+               <!-- Feature item-->
+               <div class="text-center">
+                <i id="icon" class='bx bx-gift'></i>
+                  <h3 class="font-alt">Free to Use</h3>
+                  <p class="text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
+              </div>
+               <!-- Feature item-->
+               <div class="text-center">
+                <i id="icon" class='bx bx-badge-check'></i>
+                  <h3 class="font-alt">Open Source</h3>
+                  <p class="text-muted mb-0">Since this theme is MIT licensed, you can use it commercially!</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  </div>
-</section>
-
+    </div>
+  </section>
 
   <section class="py-5">
     <div class="container">
@@ -167,7 +177,12 @@
       <p>Privacy · Terms · FAQ</p>
     </div>
   </section>
- 
+  
+  
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>

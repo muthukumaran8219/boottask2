@@ -3,11 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.nav1{
-    background-color: red;
+#icon{
+    font-size: 4.5rem;
+}
+.iphone{
+    position:relative;
 }
 
-.bgi{
-    background-image: url(image/bgimage.jfif);
+.img{
+    position: absolute;
+    left: 110px;
+}
+.video{
+    position: absolute;
+    left: 125px;
+    top:-48px
+}
+
+
+.img1{
+    position: absolute;
+    left: 110px;
+}
+.video1{
+    position: absolute;
+    left: 50x;
+    top:5px
 }
