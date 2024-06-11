@@ -19,14 +19,28 @@
     left: 125px;
     top:-48px
 }
-
-
-.img1{
-    position: absolute;
-    left: 110px;
+.p1{
+    font-family: 'Times New Roman', Times, serif;
 }
-.video1{
+#circlr{
+    left: 7%;
     position: absolute;
-    left: 50x;
-    top:5px
+}
+.color1{
+    background-color: #00000080;
+}
+
+.bgimg{
+    background-image: url(image/bgimg.jfif);
+    height: 700px;
+}
+.dot{
+    position: absolute;
+    right: -150px;
+    top:-40%;
+}
+.star{
+    left: 5%;
+    position: absolute;
+    top:10%
 }

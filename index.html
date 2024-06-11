@@ -33,7 +33,7 @@
         </li>
         <li class="nav-item">
           <button class="nav-link btn btn-primary text-white rounded-pill ">
-            <box-icon class="chats p-1"  name='message-rounded-dots'></box-icon>
+            <i class='bx bx-message-rounded-detail text-light'></i>
             Send Feedback
           </button>
         </li>
@@ -41,9 +41,9 @@
       </div>
     </nav>
 
-    <div class="container d-flex mt-5 py-5">
+    <div class="container d-flex mt-5 p-5">
       <div class="col-6">
-        <p class="display-1 fw-bold">Showcase your app beautifully.</p>
+        <p class="display-1 fw-bold p1">Showcase<br> your app <br>beautifully.</p>
         <p>Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!
         </p>
 
@@ -55,20 +55,42 @@
         </div>
       </div>
       <div class="col-6">
-        <div class="container iphone">
+        
+        <div class="container iphone"> 
+          
+          <svg width="500px" class="position-absolute d-none d-md-block" viewbox="-10 -80 100 100">
+            <rect width="4" height="1.3" rx="1" style="fill: #2937f0;"></rect>
+          </svg>
+          <svg width="500px" class="position-absolute d-none d-md-block" viewbox="-12.6 -78.6 100 100">
+            <rect width="4" height="1.3" rx="1" style="fill: #2937f0; transform: rotate(90deg)"></rect>
+          </svg>
+         <svg width="370px" height="500px" viewBox="0 0 100 100 " id="circlr">
+            <defs>
+              <lineargradient id="grad">
+                <stop offset="0%" style="stop-color: #2937f0;"></stop>
+                <stop offset="50%" style="stop-color: #9f1ae2;"></stop>
+              </lineargradient>
+            </defs>
+            <circle r="50" cx="50" cy="50" fill="url(#grad)"></circle>
+          </svg>
           <video class="video" width="203px" height="550px" autoplay>
             <source src="image/demo-screen.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           <img class="img" src="image/frame.png" alt="" width="232px" height="454px">
-        </div>
+         </div>
+         <svg width="500px" class="dot position-absolute d-none d-md-block" viewbox="-12.6 -78.6 100 100">
+          <rect width="2" height="2" rx="1" style="fill: #2937f0; transform: rotate(90deg)">
+          </rect>
+          </svg>
+       
       </div>
     </div>
 
-  <div class="container-flex bg-primary p-5 my-5 text-white">
-    <div class="my-5 px-5">
-      <h1 class="text-center mx-5 mt-5" >
-        "An intuitive solution to a common problem that we all face, wrapped up in a single app!"
+  <div class="container-flex bg-primary p-5 text-white">
+    <div class=" px-5">
+      <h1 class="text-center mx-5 mt-5 p1" >
+        "An intuitive solution to a common<br> problem that we all face, wrapped up<br> in a single app!"
       </h1>
       <img class="mx-auto d-block" src="image/tnw-logo.svg" height="100px" width="100px" alt="">
     </div>  
@@ -79,25 +101,49 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="container iphone">
-            <video class="video1" width="275px" height="420px" autoplay>
+
+            <svg width="500px" class="dot position-absolute d-none d-md-block" viewbox="-12.6 -78.6 100 100">
+              <rect width="2" height="2" rx="1" style="fill: #2937f0; transform: rotate(90deg)">
+              </rect>
+              </svg>
+            <defs>
+              <lineargradient id="grad">
+                <stop offset="0%" style="stop-color: #2937f0;"></stop>
+                <stop offset="50%" style="stop-color: #9f1ae2;"></stop>
+              </lineargradient>
+            </defs>
+            <circle r="50" cx="50" cy="50" fill="url(#grad)"></circle>
+          </svg>
+
+            <video class="video" width="203px" height="550px" autoplay>
               <source src="image/demo-screen.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
-            <img class="img1" src="image/frame.png" alt="" width="230px" height="438px">
+            <img class="img" src="image/frame.png" alt="" width="232px" height="454px">
+
+            
+            <svg width="500px" class=" star position-absolute d-none d-md-block" viewbox="-10 -80 100 100">
+              <rect width="4" height="1.3" rx="1" style="fill: #2937f0;"></rect>
+            </svg>
+            <svg width="500px" class="star position-absolute d-none d-md-block" viewbox="-12.6 -78.6 100 100">
+              <rect width="4" height="1.3" rx="1" style="fill: #2937f0; transform: rotate(90deg)"></rect>
+            </svg>
+        
+
           </div>
         </div>
-        <div class="col-lg-8">
+        <div class="col-lg-8 pt-5">
           <div class="row">
             <div class="col-lg-6">
               <!-- Feature item-->
               <div class="text-center">
-                <i id="icon" class='bx bx-mobile-alt'></i>
+                <i id="icon" class='bx bx-mobile-alt text-primary'></i>
                    <h3 class="font-alt">Device Mockups</h3>
                    <p class="text-muted mb-0">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
                </div>
                 <!-- Feature item-->
-                <div class="text-center">
-                  <i id="icon" class='bx bx-camera'></i>
+                <div class="text-center p-5">
+                  <i id="icon" class='bx bx-camera text-primary'></i>
                     <h3 class="font-alt">Flexible Use</h3>
                     <p class="text-muted mb-0">Put an image, video, animation, or anything else in the screen!</p>
                 </div>
@@ -105,13 +151,13 @@
             <div class="col-lg-6">
                <!-- Feature item-->
                <div class="text-center">
-                <i id="icon" class='bx bx-gift'></i>
+                <i id="icon" class='bx bx-gift text-primary'></i>
                   <h3 class="font-alt">Free to Use</h3>
                   <p class="text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
               </div>
                <!-- Feature item-->
-               <div class="text-center">
-                <i id="icon" class='bx bx-badge-check'></i>
+               <div class="text-center p-5">
+                <i id="icon" class='bx bx-badge-check text-primary'></i>
                   <h3 class="font-alt">Open Source</h3>
                   <p class="text-muted mb-0">Since this theme is MIT licensed, you can use it commercially!</p>
               </div>
@@ -125,10 +171,10 @@
   <section class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-6 ">
-          <h1>Enter a new age of web design</h1>
+        <div class="col-6">
+          <h1 class="fs-1 p1 fw-bolder p-5">Enter a new age<br> of web design</h1>
 
-        <p>This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.
+        <p class="px-5 text-muted fs-bold">This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.
         </p>
         </div>
 
@@ -139,34 +185,26 @@
     </div>
   </section>
 
-  <section class="py-5">
-    <div class="container bgi">
-      <div class="row">
-        <div class="col-6 text-light">
-          <h1>Stop waiting.</h1>
-            <h1>Start building.</h1>
-            <div class="container">
-              <button class="download rounded-pill px-3 py-3" type="button">Download for free</button>
-            </div>
-        </div>
-
-        <div class="col-6">
-        </div>
+  <section class="cta bgimg">
+    <div class="cta-content py-5">
+      <div class="container px-5">
+        <h2 class="text-light display-1 1h-1 mb-4">
+          Stop waiting
+          <br>
+          Start building
+        </h2>
+        <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="#">Download for free</a>
       </div>
-     </div>
     </div>
   </section>
 
   <section class="bg-primary py-5">
     <div class="container text-center">
       <h1 class="text-light">Get the app now!</h1>
-    <div class="row d-flex">
-      <div class="col-6 mt-5">
-        <img src="image/playstore.svg" height="50px weight=100px" alt="">
-      </div>
+    <div class="d-flex justify-content-center">
       <div class="col-6 mt-5">
         <img src="image/apple store.svg" height="50px weight=100px" alt="">
-      </div>
+        <img src="image/playstore.svg" height="50px weight=100px" alt="">
     </div>
     </div>
   </section>
@@ -178,8 +216,6 @@
     </div>
   </section>
   
-  
-
 
 
 
