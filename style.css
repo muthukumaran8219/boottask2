@@ -44,3 +44,36 @@
     position: absolute;
     top:10%
 }
+#enterdesign {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3.5rem;
+}
+#enterdesignback {
+    background-color: #f8f9fa;
+}
+.bgimgsection{
+    position: relative;
+    background-image: url(image/bgimage.jfif);
+    height: 700px;
+    min-width: 100%;
+    background-color:rgba(0,0,0,.5);
+}
+.c1{
+    background-color: #2937f0;
+}
+.c2{
+    border: none;
+}
+.bgimgsection::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+#drawimage{
+    position: relative;
+}
+ 
