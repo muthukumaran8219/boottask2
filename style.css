@@ -3,68 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
-#icon{
-    font-size: 4.5rem;
-}
-.iphone{
-    position:relative;
-}
-
-.img{
-    position: absolute;
-    left: 110px;
-}
-.video{
-    position: absolute;
-    left: 125px;
-    top:-48px
-}
-.p1{
+#showcase h2{
     font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
 }
-#circlr{
-    left: 7%;
-    position: absolute;
-}
-.color1{
-    background-color: #00000080;
+#showcase p{
+    font-size: 20px;
 }
 
-.bgimg{
+#intuitive-solution{
+    background-color: blue;
+}
+.icons{
+    font-size: 70px;
+   color: blue ;
+}
+#drawimage{
     background-image: url(image/bgimg.jfif);
     height: 700px;
 }
-.dot{
-    position: absolute;
-    right: -150px;
-    top:-40%;
-}
-.star{
-    left: 5%;
-    position: absolute;
-    top:10%
-}
-#enterdesign {
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 3.5rem;
-}
-#enterdesignback {
-    background-color: #f8f9fa;
-}
-.bgimgsection{
-    position: relative;
-    background-image: url(image/bgimage.jfif);
-    height: 700px;
-    min-width: 100%;
-    background-color:rgba(0,0,0,.5);
-}
-.c1{
-    background-color: #2937f0;
-}
-.c2{
-    border: none;
-}
-.bgimgsection::before{
+#drawimage::before{
     content: "";
     position: absolute;
     top: 0;
@@ -73,7 +31,22 @@
     right: 0;
     background-color: rgba(0, 0, 0, 0.349);
 }
-#drawimage{
-    position: relative;
+
+.drawimagecont{
+    position: absolute;
+    padding-top: 150px;
 }
- 
+#circle{
+    top: 10%;
+    right: 30px;
+}
+.plus{
+    top: 10%;
+    right: 30px;
+}
+#appdownload #footer{
+    position: absolute;
+}
+#navbar-brand{
+    border: none;
+}
